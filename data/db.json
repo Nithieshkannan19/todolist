@@ -1,0 +1,18 @@
+{
+  "activities": [
+    {
+      "name": "Jane",
+      "date": "2023-05-31",
+      "title": "Ghi",
+      "id": 5,
+      "isDeleted": false
+    },
+    {
+      "name": "Jane",
+      "date": "2023-05-31",
+      "title": "Ghi",
+      "id": 6,
+      "isDeleted": false
+    }
+  ]
+}

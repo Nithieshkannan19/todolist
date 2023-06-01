@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+body{
+  font-family: poppins;
+}
+
+nav{
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  background-color:rgb(217, 237, 252);
+  border-radius: 15px 15px 0px 0px;
+
+}
+
+nav h1{
+  font-size: 30px;
+  text-transform:uppercase;
+  margin: 15px ;
+  color: darkblue;
+}
+
+nav a{
+  text-decoration: none;
+  color: darkblue;
+}
+
+.links{
+  margin: 25px;
+}
+
+.links a{
+  margin-left: 20px;
+  padding:5px 10px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.content {
+  /* text-align: center; */
+  padding:10px 0px;
+  margin: 1px 0px;
+}
+
+.links a:hover,.link a:link{
+  background-color: darkblue;
+  color:rgb(217, 237, 252);
+  font-size: 17px;
+  transition: all .3s ease-in-out;
+}
+
+.content{
+  height: 100%;
+  border-radius:0 0 15px 15px;
+}
+
+.activitylist {
+  padding-left: 15%;
+  margin:25px 20px;
+}
+
+.activitylist h2{ 
+  color: darkblue;
+  text-transform: capitalize;
+  padding-top: 10px;
+  padding-left: 15px;
+  font-size: 30px;
+}
+
+
+.newactivity h2{
+  color: darkblue;
+  text-transform: capitalize;
+  font-size: 35px;
+  margin-bottom: 60px;
+  text-align: center;
+  margin-top: -20px;
+} 
+
+.history h2{
+  color: darkblue;
+  text-transform: capitalize;
+  font-size: 35px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.activitylist h3 {
+  margin-left: 7%;
+  margin-top: -25px;
+  margin-bottom: 15px;
+  font-weight: 100;
+  padding-bottom: 10px;
+  font-weight: 500;
+  color: darkblue;
+  font-size: 18px
+}
+
+
+
+.preview:hover{
+  box-shadow: 0px 3px 7px 1px rgb(174, 174, 250);
+  transition: all 0.7s ease;
+  padding: 0px 15px;
+}
+
+.preview:hover button{
+  margin-right: 15px;
+  transition: all 0.7s ease;
+
+}
+
+.preview{
+  width: 70%;
+  border-radius: 5px;
+  margin-left: 5%;
+}
+
+.preview button{
+  margin-top: -45px;
+  height: 35px;
+  color: rgb(217, 237, 252);
+  background-color:darkblue;
+  border-radius: 10px;
+  border: 0px;
+  margin-right: 10px;
+  padding: 5px 7px;
+}
+
+.preview button:hover{
+  font-weight: bold;
+}
+
+.part{
+  display: flex;
+  justify-content: space-between;
+}
+
+.loading ,.error{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10%;
+  font-weight: 100;
+  text-transform: capitalize;
+  font-weight: 800;
+  color: darkblue;
+}
+
+.desc{
+  text-align: center;
+  width:80%;
+  margin:2% 10%;
+  color: darkblue;
+}
+
+.addactivity{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10%;
+  font-weight: 100;
+  text-transform: capitalize;
+  font-weight: 800;
+  color: darkblue;
+}
+
+
+.activitydetails{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 100;
+  text-transform: capitalize;
+  font-weight: 800;
+  color: darkblue;
+}
+
+.activitylist a ,.historylist a{
+  text-decoration: none;
+}
+
+.activitydetails h1{
+  color: darkblue;
+  text-transform: capitalize;
+  padding-top: 10px;
+  padding-left: 15px;
+  font-size: 30px;
+}
+
+.activitydetails h2{
+  text-align: left;
+  margin-left: 15%;
+}
+
+.activitydetails p{
+  text-align: justify;
+  margin-left: 20%;
+}
+
+
+
+form {
+  margin: 5% auto ;
+  box-shadow: -3px -3px 10px 3px rgb(199, 199, 247) ;
+  border: 0;
+  width: 400px;
+  padding: 40px;
+  border-radius: 15px;
+}
+.newactivity .forms label{
+  color: darkblue;
+  font-size: 20px;
+ 
+}
+.content{
+  width: auto;
+}
+.newactivity .forms input{
+  margin: 15px auto;
+  width: 98.4%;
+  font-size: 20px;
+  border-radius: 7px;
+  border: 1px solid darkblue;
+  padding: 3px ;
+  font-weight: 100;
+}
+
+.newactivity .forms input:hover{
+  outline: none;
+}
+
+.newactivity .forms button{
+  text-decoration: none;
+  color: white;
+  background-color:darkblue;
+  border-radius: 10px;
+  border: 0px;
+  padding: 7px 15px;
+  margin: 15px 30%;
+  cursor: pointer;
+  font-size: 18px;
+  width: 150px;
+}
+
+.newactivity button:hover{
+  color: darkblue;
+  font-weight: bolder;
+  border: 1px solid darkblue;
+  background-color: white;
+}
+
+.activitydetails article button{
+  color: white;
+  background-color:darkblue;
+  border-radius: 10px;
+  border: 0px;
+  padding: 7px 15px;
+  margin: 30px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.activitydetails article button:hover{
+  color: darkblue;
+  /* font-weight: bolder; */
+  border: 1px solid darkblue;
+  background-color: white;
+}
+
+.notfound a{
+  color: darkblue;
+  /* text-decoration: none; */
+  /* background-color:darkblue; */
+  border-radius: 10px;
+  border: 0px;
+  padding: 7px 15px;
+  margin: 30px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.notfound h2{
+  color: darkblue;
+  text-transform: capitalize;
+  font-size: 35px;
+  margin-bottom: 60px;
+  text-align: center;
+  /* margin-top: -20px; */
+}
+
+.historypreview{
+  width: 60%;
+  margin-left: 20%;
+  text-align: justify;
+}
+
+.historypreview:hover{
+  box-shadow: 0px 3px 7px 1px rgb(174, 174, 250);
+  transition: all 0.7s ease;
+  padding: 0px 15px;
+  border-radius: 10px;
+}
+
+.historypreview h2{
+  text-align: left;
+  padding-left: 30px;
+}
+
+.historypreview h3{
+  margin-top: -60px;
+  margin-left: 15px;
+}
+
+.historypart1 ,.historypart2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.historypart1 button{
+  margin-top: -60px;
+  height: 35px;
+  color: rgb(217, 237, 252);
+  background-color:darkblue;
+  border-radius: 10px;
+  border: 0px;
+  margin-right: 50px;
+  padding: 5px 7px;
+  float: right;
+}
+
+.historypart2 button{
+  margin-top: 40px;
+  height: 35px;
+  color: rgb(217, 237, 252);
+  background-color:darkblue;
+  border-radius: 10px;
+  border: 0px;
+  margin-right: 50px;
+  padding: 5px 7px;
+  float: right;
+}
+
